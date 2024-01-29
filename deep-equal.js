@@ -1,5 +1,9 @@
 function deepEqual(value, reference) {
   // Add code.
+  if (reference == `object` && reference != null) {
+  return value.keys === reference.keys
+ }
+ return value === reference
 }
 
 
