@@ -4,26 +4,25 @@ function reverseArray(arr) {
   let holder = 1;
   let length = arr.length;
   for (let counter = 1; counter <= length; counter++) {
-    output.push(arr[length - counter])
-  } 
-  return output
-}
+    output.push(arr[length - counter]);
+  } ;
+  return output;
+};
 
 function reverseArrayInPlace(arr) {
   // Add code.
   let holder1;
   let holder2;
   let length = arr.length;
-  let checker = length / 2
-  for (let counter = 0; counter <= checker.floor; counter++) {
+  let checker = length / 2;
+  for (let counter = 0; counter <= Math.floor(checker); counter++) {
     holder1 = arr[counter - 1];
     holder2 = arr[length - counter];
     arr[counter - 1] = holder2;
     arr[length - counter] = holder1;
-    console.log(arr);
-  }
-  return arr
-}
+  };
+  return arr;
+};
 
 
 
