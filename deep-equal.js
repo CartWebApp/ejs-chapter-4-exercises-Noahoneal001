@@ -2,10 +2,7 @@ function deepEqual(value, reference) {
   // Add code.
   let lastHopes1 = ``;
   let lastHopes2 = ``;
-  let holder1 = Object.values(value);
-  let holder2 = Object.values(reference);
   let keyring1 = Object.keys(value);
-  let keyring2 = Object.keys(reference);
   if (value === reference) {
     return true;
   };
