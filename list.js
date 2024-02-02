@@ -9,7 +9,6 @@ return output;
 
 function listToArray(list, arr) {
   // Add code.
-  let keyring = Object.keys(list);
   arr = []; 
   for (let counter = list; counter; counter = counter.rest) {
     arr.push(counter.value)
