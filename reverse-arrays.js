@@ -11,8 +11,7 @@ function reverseArray(arr) {
 
 function reverseArrayInPlace(arr) {
   // Add code.
-  let holder1;
-  let holder2;
+  let holder1, holder2;
   let length = arr.length;
   let checker = length / 2;
   for (let counter = 1; counter <= Math.floor(checker); counter++) {
